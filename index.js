@@ -49,7 +49,7 @@ app.use(
 	})
 );
 
-app.use("tawk", limiter);
+app.use("chatapp-server-l5gz.onrender", limiter);
 
 if(process.env.NODE_ENV === "development"){
     app.use(morgan("dev"));
